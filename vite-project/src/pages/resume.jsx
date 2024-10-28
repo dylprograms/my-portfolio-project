@@ -2,8 +2,8 @@ import React from 'react';
 
 const Resume = () => {
     return (
-        <div>
-            <h1>John Doe</h1>
+        <div className='resumediv'>
+            <h1 className='resume1'>Daniel</h1>
             <p>Email: john.doe@example.com</p>
             <p>Phone: (123) 456-7890</p>
 
