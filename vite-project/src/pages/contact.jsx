@@ -1,19 +1,4 @@
-/*
-import React from 'react';
 
-const Contact = () => {
-    return (
-        <div>
-            <h1>Contact Information</h1>
-            <p>Email: example@example.com</p>
-            <p>Phone: (123) 456-7890</p>
-            <p>Address: 123 Main St, Anytown, USA</p>
-        </div>
-    );
-};
-
-export default Contact;
-*/
 import React, { useState } from 'react';
 
 const Contact = () => {
@@ -26,16 +11,31 @@ const Contact = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         // You can handle the form submission logic here
+        if (!name || !email || !message) {
+            alert('Please fill out all fields');
+            return;
+        }
+        if (!email.includes('@')) {
+            alert('Please enter a valid email address');
+            return;
+        }
+        if (message.length < 10) {
+            alert('Message should be at least 10 characters long');
+            return;
+        }
         console.log({ name, email, message });
         // Clear the form fields after submission (optional)
         setName('');
         setEmail('');
         setMessage('');
+        if (name && email && message) {
+            alert('Message sent successfully');
+        }
     };
 
     return (
         <div className='contactDiv'>
-            <h1>Contact Information</h1>
+            <h1>Contact Me</h1>
             <form onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Name:</label>

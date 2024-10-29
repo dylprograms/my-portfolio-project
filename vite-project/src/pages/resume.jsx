@@ -3,26 +3,15 @@ import React from 'react';
 const Resume = () => {
     return (
         <div className='resumediv'>
-            <h1 className='resume1'>Daniel</h1>
+            <h1 className='resume1'>Daniel</h1> 
+            <a href="https://drive.google.com/uc?export=download&id=1dlcrT5emSx_hE80BpwN6Tc293rCwCFW8" download> Download Resume</a>
             <p>Email: john.doe@example.com</p>
             <p>Phone: (123) 456-7890</p>
 
             <h2>Education</h2>
             <ul>
                 <li>
-                    <strong>University of Example</strong> (2017 - 2021)
-                </li>
-            </ul>
-
-            <h2>Experience</h2>
-            <ul>
-                <li>
-                    <strong>Software Engineer</strong> at Example Corp (2021 - Present)
-                    <p>Developed and maintained web applications using React and Node.js.</p>
-                </li>
-                <li>
-                    <strong>Intern</strong> at Another Example Inc (2020 - 2021)
-                    <p>Assisted in the development of internal tools and automation scripts.</p>
+                    <strong>UNCC Bootcamp</strong> 2024
                 </li>
             </ul>
 
