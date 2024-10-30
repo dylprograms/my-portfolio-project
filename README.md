@@ -17,13 +17,13 @@ This portfolio showcases my web development work and includes sections about me,
 ## Installation
 
 1. Clone this repository:
-   from [my-portfolio-project](https://relaxed-manatee-879475.netlify.app/)
+   from [my-portfolio-project](https://github.com/dylprograms/my-portfolio-project)
    
 
 
 ## Usage
 
-This portfolio app diplays my work and resume [The deployed site](https://dylprograms.github.io/my-portfolio-project/)
+This portfolio app diplays my work and resume [The deployed site](https://relaxed-manatee-879475.netlify.app/)
 
 Header and Navigation: Includes links to "About Me," "Portfolio," "Contact," and "Resume" sections. The current section is highlighted.
 About Me: Displays a recent photo and a short bio.
