@@ -17,7 +17,7 @@ This portfolio showcases my web development work and includes sections about me,
 ## Installation
 
 1. Clone this repository:
-   from [my-portfolio-project](https://github.com/dylprograms/my-portfolio-project)
+   from [my-portfolio-project](https://relaxed-manatee-879475.netlify.app/)
    
 
 
